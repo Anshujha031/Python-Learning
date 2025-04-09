@@ -14,8 +14,9 @@
 #-------------------------------------------------
 # return = statement used to end a function and send a result back to the caller
 
+#function defination
 def add(x,y):
     z = x+y
     return z
-
+#function call
 print(add(2,3))
